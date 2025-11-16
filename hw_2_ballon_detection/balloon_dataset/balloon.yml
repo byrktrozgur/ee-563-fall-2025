@@ -1,0 +1,6 @@
+path: C:\Users\ZGR\VS\torch\ee-563-fall-2025\hw_2_ballon_detection/balloon_dataset  # change this
+train: images/train
+val: images/val
+
+names:
+  0: balloon

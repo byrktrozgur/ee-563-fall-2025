@@ -73,17 +73,17 @@ def visualize(
 #* curl https://i.imgur.com/Vu2Nqwb.jpeg -s -o image.jpg
 
 IMAGE_FILE = 'midterm/test_images/face-1.png'
-import cv2
+import cv2 
 img = cv2.imread(IMAGE_FILE)
 
 # STEP 1: Import the necessary modules.
 import numpy as np
 import mediapipe as mp
 from mediapipe.tasks import python
-from mediapipe.tasks.python import vision
+from mediapipe.tasks.python import vision 
 
 # STEP 2: Create an FaceDetector object.
-base_options = python.BaseOptions(model_asset_path='detector.tflite')
+base_options = python.BaseOptions(model_asset_path='detector.tflite') 
 options = vision.FaceDetectorOptions(base_options=base_options)
 detector = vision.FaceDetector.create_from_options(options)
 
@@ -102,5 +102,3 @@ rgb_annotated_image = cv2.cvtColor(annotated_image, cv2.COLOR_BGR2RGB)
 # save the annotated image to a file
 OUTPUT_FILE = 'face_detector_image_output.png'
 cv2.imwrite(OUTPUT_FILE, rgb_annotated_image)
-print(f"Result saved to {OUTPUT_FILE}")
-

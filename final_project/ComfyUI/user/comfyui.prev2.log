@@ -1,0 +1,273 @@
+## ComfyUI-Manager: installing dependencies done.
+[2026-01-23 18:56:58.013] ** ComfyUI startup time: 2026-01-23 18:56:58.013
+[2026-01-23 18:56:58.013] ** Platform: Windows
+[2026-01-23 18:56:58.013] ** Python version: 3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:05:38) [MSC v.1929 64 bit (AMD64)]
+[2026-01-23 18:56:58.013] ** Python executable: C:\Users\zgrby\miniconda3\envs\comfy-128\python.exe
+[2026-01-23 18:56:58.013] ** ComfyUI Path: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI
+[2026-01-23 18:56:58.013] ** ComfyUI Base Folder Path: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI
+[2026-01-23 18:56:58.013] ** User directory: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\user
+[2026-01-23 18:56:58.013] ** ComfyUI-Manager config path: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\user\__manager\config.ini
+[2026-01-23 18:56:58.013] ** Log path: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\user\comfyui.log
+
+Prestartup times for custom nodes:
+[2026-01-23 18:56:58.757]    2.2 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-23 18:56:58.757] 
+[2026-01-23 18:57:01.236] Checkpoint files will always be loaded safely.
+[2026-01-23 18:57:01.358] Total VRAM 12227 MB, total RAM 32422 MB
+[2026-01-23 18:57:01.358] pytorch version: 2.9.1+cu128
+[2026-01-23 18:57:01.374] Set vram state to: NORMAL_VRAM
+[2026-01-23 18:57:01.374] Device: cuda:0 NVIDIA GeForce RTX 5070 : cudaMallocAsync
+[2026-01-23 18:57:01.390] Using async weight offloading with 2 streams
+[2026-01-23 18:57:01.390] Enabled pinned memory 14590.0
+[2026-01-23 18:57:01.393] working around nvidia conv3d memory bug.
+[2026-01-23 18:57:02.739] Using pytorch attention
+[2026-01-23 18:57:05.326] Python version: 3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:05:38) [MSC v.1929 64 bit (AMD64)]
+[2026-01-23 18:57:05.326] ComfyUI version: 0.7.0
+[2026-01-23 18:57:05.360] ComfyUI frontend version: 1.35.9
+[2026-01-23 18:57:05.362] [Prompt Server] web root: C:\Users\zgrby\miniconda3\envs\comfy-128\Lib\site-packages\comfyui_frontend_package\static
+[2026-01-23 18:57:05.976] Total VRAM 12227 MB, total RAM 32422 MB
+[2026-01-23 18:57:05.976] pytorch version: 2.9.1+cu128
+[2026-01-23 18:57:05.976] Set vram state to: NORMAL_VRAM
+[2026-01-23 18:57:05.976] Device: cuda:0 NVIDIA GeForce RTX 5070 : cudaMallocAsync
+[2026-01-23 18:57:05.997] Using async weight offloading with 2 streams
+[2026-01-23 18:57:05.997] Enabled pinned memory 14590.0
+[2026-01-23 18:57:06.309] ### Loading: ComfyUI-Manager (V3.39)
+[2026-01-23 18:57:06.309] [ComfyUI-Manager] network_mode: public
+[2026-01-23 18:57:06.309] [ComfyUI-Manager] ComfyUI per-queue preview override detected (PR #11261). Manager's preview method feature is disabled. Use ComfyUI's --preview-method CLI option or 'Settings > Execution > Live preview method'.
+[2026-01-23 18:57:06.417] ### ComfyUI Version: v0.7.0-11-g9a552df8 | Released on '2026-01-02'
+[2026-01-23 18:57:06.826] [36;20m[C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2026-01-23 18:57:06.827] [36;20m[C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2026-01-23 18:57:06.827] [36;20m[C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2026-01-23 18:57:06.993] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2026-01-23 18:57:07.013] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2026-01-23 18:57:07.138] C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2026-01-23 18:57:07.165] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2026-01-23 18:57:07.232] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2026-01-23 18:57:07.232] 
+Import times for custom nodes:
+[2026-01-23 18:57:07.232]    0.0 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\websocket_image_save.py
+[2026-01-23 18:57:07.232]    0.0 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\ComfyUI-TiledDiffusion
+[2026-01-23 18:57:07.232]    0.0 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui-inpaint-nodes
+[2026-01-23 18:57:07.232]    0.1 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2026-01-23 18:57:07.232]    0.4 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2026-01-23 18:57:07.232]    0.5 seconds: C:\Users\zgrby\Desktop\VS\torch\ee-563-fall-2025\final_project\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-23 18:57:07.232] 
+[2026-01-23 18:57:07.282] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2026-01-23 18:57:07.838] Context impl SQLiteImpl.
+[2026-01-23 18:57:07.838] Will assume non-transactional DDL.
+[2026-01-23 18:57:07.838] No target revision found.
+[2026-01-23 18:57:07.899] Starting server
+
+[2026-01-23 18:57:07.909] To see the GUI go to: http://127.0.0.1:8188
+[2026-01-23 18:57:09.428] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-23 18:57:09.428] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/groupNode.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-23 18:57:09.620] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/buttonGroup.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-23 18:57:09.623] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-23 18:57:11.104] FETCH ComfyRegistry Data: 5/121
+[2026-01-23 18:57:16.110] FETCH ComfyRegistry Data: 10/121
+[2026-01-23 18:57:20.261] FETCH ComfyRegistry Data: 15/121
+[2026-01-23 18:57:24.227] FETCH ComfyRegistry Data: 20/121
+[2026-01-23 18:57:28.445] FETCH ComfyRegistry Data: 25/121
+[2026-01-23 18:57:32.561] FETCH ComfyRegistry Data: 30/121
+[2026-01-23 18:57:34.527] got prompt
+[2026-01-23 18:57:34.527] Failed to validate prompt for output 58:
+[2026-01-23 18:57:34.527] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:57:34.527]   - Required input is missing: image
+[2026-01-23 18:57:34.527] * VAEEncode 56:
+[2026-01-23 18:57:34.527]   - Required input is missing: pixels
+[2026-01-23 18:57:34.527] Output will be ignored
+[2026-01-23 18:57:35.345] model weight dtype torch.float16, manual cast: None
+[2026-01-23 18:57:35.362] model_type EPS
+[2026-01-23 18:57:35.684] Using pytorch attention in VAE
+[2026-01-23 18:57:35.684] Using pytorch attention in VAE
+[2026-01-23 18:57:35.771] VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+[2026-01-23 18:57:35.934] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2026-01-23 18:57:36.962] FETCH ComfyRegistry Data: 35/121
+[2026-01-23 18:57:37.032] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.70it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.70it/s]
+[2026-01-23 18:57:37.118] Requested to load AutoencoderKL
+[2026-01-23 18:57:37.156] loaded completely; 9397.50 MB usable, 159.56 MB loaded, full load: True
+[2026-01-23 18:57:37.861] Requested to load SD1ClipModel
+[2026-01-23 18:57:37.911] loaded completely; 9302.24 MB usable, 235.84 MB loaded, full load: True
+[2026-01-23 18:57:38.011] Requested to load BaseModel
+[2026-01-23 18:57:38.011] Requested to load ControlNet
+[2026-01-23 18:57:38.263] loaded completely; 9049.27 MB usable, 1639.41 MB loaded, full load: True
+[2026-01-23 18:57:38.379] loaded completely; 7409.86 MB usable, 689.09 MB loaded, full load: True
+[2026-01-23 18:57:40.949] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:02<00:00,  9.92it/s]
+[2026-01-23 18:57:41.046] Prompt executed in 6.50 seconds
+[2026-01-23 18:57:41.246] FETCH ComfyRegistry Data: 40/121
+[2026-01-23 18:57:45.312] FETCH ComfyRegistry Data: 45/121
+[2026-01-23 18:57:49.278] FETCH ComfyRegistry Data: 50/121
+[2026-01-23 18:57:53.468] FETCH ComfyRegistry Data: 55/121
+[2026-01-23 18:57:57.960] FETCH ComfyRegistry Data: 60/121
+[2026-01-23 18:58:02.022] FETCH ComfyRegistry Data: 65/121
+[2026-01-23 18:58:06.008] FETCH ComfyRegistry Data: 70/121
+[2026-01-23 18:58:11.369] FETCH ComfyRegistry Data: 75/121
+[2026-01-23 18:58:15.846] FETCH ComfyRegistry Data: 80/121
+[2026-01-23 18:58:16.631] got prompt
+[2026-01-23 18:58:16.631] Failed to validate prompt for output 58:
+[2026-01-23 18:58:16.631] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:16.631]   - Required input is missing: image
+[2026-01-23 18:58:16.631] * VAEEncode 56:
+[2026-01-23 18:58:16.631]   - Required input is missing: pixels
+[2026-01-23 18:58:16.631] Output will be ignored
+[2026-01-23 18:58:16.648] Prompt executed in 0.00 seconds
+[2026-01-23 18:58:19.697] got prompt
+[2026-01-23 18:58:19.697] Failed to validate prompt for output 58:
+[2026-01-23 18:58:19.697] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:19.697]   - Required input is missing: image
+[2026-01-23 18:58:19.697] * VAEEncode 56:
+[2026-01-23 18:58:19.697]   - Required input is missing: pixels
+[2026-01-23 18:58:19.697] Output will be ignored
+[2026-01-23 18:58:19.697] Prompt executed in 0.00 seconds
+[2026-01-23 18:58:21.590] FETCH ComfyRegistry Data: 85/121
+[2026-01-23 18:58:23.746] got prompt
+[2026-01-23 18:58:23.746] Failed to validate prompt for output 58:
+[2026-01-23 18:58:23.746] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:23.746]   - Required input is missing: image
+[2026-01-23 18:58:23.746] * VAEEncode 56:
+[2026-01-23 18:58:23.746]   - Required input is missing: pixels
+[2026-01-23 18:58:23.746] Output will be ignored
+[2026-01-23 18:58:25.079] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.95it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 19.06it/s]
+[2026-01-23 18:58:25.171] Prompt executed in 1.41 seconds
+[2026-01-23 18:58:26.330] FETCH ComfyRegistry Data: 90/121
+[2026-01-23 18:58:26.878] got prompt
+[2026-01-23 18:58:26.878] Failed to validate prompt for output 58:
+[2026-01-23 18:58:26.878] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:26.878]   - Required input is missing: image
+[2026-01-23 18:58:26.878] * VAEEncode 56:
+[2026-01-23 18:58:26.878]   - Required input is missing: pixels
+[2026-01-23 18:58:26.878] Output will be ignored
+[2026-01-23 18:58:28.238] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.50it/s]
+[2026-01-23 18:58:28.328] Prompt executed in 1.45 seconds
+[2026-01-23 18:58:29.446] got prompt
+[2026-01-23 18:58:29.446] Failed to validate prompt for output 58:
+[2026-01-23 18:58:29.446] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:29.446]   - Required input is missing: image
+[2026-01-23 18:58:29.446] * VAEEncode 56:
+[2026-01-23 18:58:29.446]   - Required input is missing: pixels
+[2026-01-23 18:58:29.446] Output will be ignored
+[2026-01-23 18:58:30.346] FETCH ComfyRegistry Data: 95/121
+[2026-01-23 18:58:30.796] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.79it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.81it/s]
+[2026-01-23 18:58:30.895] Prompt executed in 1.43 seconds
+[2026-01-23 18:58:35.336] got prompt
+[2026-01-23 18:58:35.336] Failed to validate prompt for output 58:
+[2026-01-23 18:58:35.336] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:35.336]   - Required input is missing: image
+[2026-01-23 18:58:35.336] * VAEEncode 56:
+[2026-01-23 18:58:35.336]   - Required input is missing: pixels
+[2026-01-23 18:58:35.336] Output will be ignored
+[2026-01-23 18:58:35.897] FETCH ComfyRegistry Data: 100/121
+[2026-01-23 18:58:36.681] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.78it/s]
+[2026-01-23 18:58:36.781] Prompt executed in 1.44 seconds
+[2026-01-23 18:58:38.363] got prompt
+[2026-01-23 18:58:38.379] Failed to validate prompt for output 58:
+[2026-01-23 18:58:38.379] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:38.379]   - Required input is missing: image
+[2026-01-23 18:58:38.379] * VAEEncode 56:
+[2026-01-23 18:58:38.379]   - Required input is missing: pixels
+[2026-01-23 18:58:38.379] Output will be ignored
+[2026-01-23 18:58:39.680] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 19.30it/s]
+[2026-01-23 18:58:39.766] Prompt executed in 1.39 seconds
+[2026-01-23 18:58:40.693] got prompt
+[2026-01-23 18:58:40.695] Failed to validate prompt for output 58:
+[2026-01-23 18:58:40.695] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:40.695]   - Required input is missing: image
+[2026-01-23 18:58:40.695] * VAEEncode 56:
+[2026-01-23 18:58:40.695]   - Required input is missing: pixels
+[2026-01-23 18:58:40.696] Output will be ignored
+[2026-01-23 18:58:40.763] FETCH ComfyRegistry Data: 105/121
+[2026-01-23 18:58:41.980] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 19.67it/s]
+[2026-01-23 18:58:42.083] Prompt executed in 1.39 seconds
+[2026-01-23 18:58:44.196] got prompt
+[2026-01-23 18:58:44.196] Failed to validate prompt for output 58:
+[2026-01-23 18:58:44.196] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:44.196]   - Required input is missing: image
+[2026-01-23 18:58:44.196] * VAEEncode 56:
+[2026-01-23 18:58:44.196]   - Required input is missing: pixels
+[2026-01-23 18:58:44.196] Output will be ignored
+[2026-01-23 18:58:45.458] FETCH ComfyRegistry Data: 110/121
+[2026-01-23 18:58:45.549] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 19.03it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.73it/s]
+[2026-01-23 18:58:45.639] Prompt executed in 1.43 seconds
+[2026-01-23 18:58:46.046] got prompt
+[2026-01-23 18:58:46.046] Failed to validate prompt for output 58:
+[2026-01-23 18:58:46.046] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:46.046]   - Required input is missing: image
+[2026-01-23 18:58:46.046] * VAEEncode 56:
+[2026-01-23 18:58:46.046]   - Required input is missing: pixels
+[2026-01-23 18:58:46.046] Output will be ignored
+[2026-01-23 18:58:46.046] Prompt executed in 0.00 seconds
+[2026-01-23 18:58:46.988] got prompt
+[2026-01-23 18:58:46.988] Failed to validate prompt for output 58:
+[2026-01-23 18:58:46.988] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:46.988]   - Required input is missing: image
+[2026-01-23 18:58:46.988] * VAEEncode 56:
+[2026-01-23 18:58:46.988]   - Required input is missing: pixels
+[2026-01-23 18:58:46.988] Output will be ignored
+[2026-01-23 18:58:47.003] Prompt executed in 0.00 seconds
+[2026-01-23 18:58:47.564] got prompt
+[2026-01-23 18:58:47.566] Failed to validate prompt for output 58:
+[2026-01-23 18:58:47.566] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:47.566]   - Required input is missing: image
+[2026-01-23 18:58:47.566] * VAEEncode 56:
+[2026-01-23 18:58:47.566]   - Required input is missing: pixels
+[2026-01-23 18:58:47.566] Output will be ignored
+[2026-01-23 18:58:47.575] Prompt executed in 0.01 seconds
+[2026-01-23 18:58:48.130] got prompt
+[2026-01-23 18:58:48.130] Failed to validate prompt for output 58:
+[2026-01-23 18:58:48.130] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:48.130]   - Required input is missing: image
+[2026-01-23 18:58:48.130] * VAEEncode 56:
+[2026-01-23 18:58:48.130]   - Required input is missing: pixels
+[2026-01-23 18:58:48.130] Output will be ignored
+[2026-01-23 18:58:48.130] Prompt executed in 0.00 seconds
+[2026-01-23 18:58:50.220] FETCH ComfyRegistry Data: 115/121
+[2026-01-23 18:58:52.580] got prompt
+[2026-01-23 18:58:52.580] Failed to validate prompt for output 58:
+[2026-01-23 18:58:52.580] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:58:52.580]   - Required input is missing: image
+[2026-01-23 18:58:52.580] * VAEEncode 56:
+[2026-01-23 18:58:52.580]   - Required input is missing: pixels
+[2026-01-23 18:58:52.580] Output will be ignored
+[2026-01-23 18:58:52.597] Prompt executed in 0.00 seconds
+[2026-01-23 18:58:54.347] FETCH ComfyRegistry Data: 120/121
+[2026-01-23 18:58:55.617] FETCH ComfyRegistry Data [DONE]
+[2026-01-23 18:58:55.769] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2026-01-23 18:58:55.781] FETCH DATA from: https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2026-01-23 18:58:56.164] [ComfyUI-Manager] All startup tasks have been completed.
+[2026-01-23 18:59:04.115] got prompt
+[2026-01-23 18:59:04.115] Failed to validate prompt for output 58:
+[2026-01-23 18:59:04.115] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:59:04.115]   - Required input is missing: image
+[2026-01-23 18:59:04.115] * VAEEncode 56:
+[2026-01-23 18:59:04.115]   - Required input is missing: pixels
+[2026-01-23 18:59:04.115] Output will be ignored
+[2026-01-23 18:59:04.115] Prompt executed in 0.00 seconds
+[2026-01-23 18:59:23.259] got prompt
+[2026-01-23 18:59:23.260] Failed to validate prompt for output 58:
+[2026-01-23 18:59:23.260] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:59:23.260]   - Required input is missing: image
+[2026-01-23 18:59:23.260] * VAEEncode 56:
+[2026-01-23 18:59:23.260]   - Required input is missing: pixels
+[2026-01-23 18:59:23.260] Output will be ignored
+[2026-01-23 18:59:24.653] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 17.99it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 18.06it/s]
+[2026-01-23 18:59:24.751] Prompt executed in 1.49 seconds
+[2026-01-23 18:59:32.614] got prompt
+[2026-01-23 18:59:32.629] Failed to validate prompt for output 58:
+[2026-01-23 18:59:32.629] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:59:32.629]   - Required input is missing: image
+[2026-01-23 18:59:32.629] * VAEEncode 56:
+[2026-01-23 18:59:32.629]   - Required input is missing: pixels
+[2026-01-23 18:59:32.629] Output will be ignored
+[2026-01-23 18:59:32.634] Prompt executed in 0.00 seconds
+[2026-01-23 18:59:34.248] got prompt
+[2026-01-23 18:59:34.249] Failed to validate prompt for output 58:
+[2026-01-23 18:59:34.249] * MiDaS-DepthMapPreprocessor 63:
+[2026-01-23 18:59:34.250]   - Required input is missing: image
+[2026-01-23 18:59:34.250] * VAEEncode 56:
+[2026-01-23 18:59:34.250]   - Required input is missing: pixels
+[2026-01-23 18:59:34.250] Output will be ignored
+[2026-01-23 18:59:35.581] 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:01<00:00, 19.02it/s]
+[2026-01-23 18:59:35.680] Prompt executed in 1.43 seconds
+[2026-01-23 19:00:13.299] 
+Stopped server
